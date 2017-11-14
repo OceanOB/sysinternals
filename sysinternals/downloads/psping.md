@@ -118,7 +118,7 @@ until you terminate it with Control-C.
 
 **server: psping \[\[-6\]|\[-4\]\] \[-f\] &lt;-s source:sourceport&gt;**
 
-**client: psping \[\[-6\]|\[-4\]\] \[-f\] \[-u\] \[-h \[buckets |
+**client: psping \[\[-6\]|\[-4\]\] -b \[-f\] \[-u\] \[-h \[buckets |
 &lt;val1&gt;,&lt;val2&gt;,...\]\] \[-r\] &lt;-l requestsize&gt;\[k|m\]\]
 &lt;-n count&gt; \[-i &lt;outstanding&gt;\] \[-w &lt;count&gt;\]
 &lt;destination:destport&gt;**
